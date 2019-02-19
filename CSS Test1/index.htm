@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Test1</title>
+        <!-- p태그에 red -->
+        <!-- thead에 red -->
+        <!-- tbody tr에 blue 깔고 -->
+        <!-- tr + tr로 yellow -->
+        <style>
+        p#p_tag + p {
+            color: red;
+        }
+        .table thead {
+            color: red;
+        }
+        .table tbody tr {
+            color: blue;
+        }
+        .table tbody tr + tr {
+            color: yellow;
+        }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>제목</h1>
+            <div>
+                <p id="p_tag">문단</p>
+                <p>문단</p>
+            </div>
+            <div>
+                <table class="table">
+                    <thead>
+                        <th>제목1</th><th>제목2</th>
+                    </thead>
+                    <tbody>
+                        <tr><td>본문1</td><td>본문2</td></tr>
+                        <tr><td>본문3</td><td>본문4</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
