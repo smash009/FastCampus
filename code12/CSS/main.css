@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+div {
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    border: 10px solid blue;
+    padding: 50px;
+    /* 박스모델과 관련된 속성은 상속되지 않는다
+    예외) height 속성은 고정된다. width 속성은 */
+    margin: 20px;
+    height: 10px;
+    width: 20px;
+}
