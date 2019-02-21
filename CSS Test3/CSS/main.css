@@ -10,9 +10,9 @@ html {
 a:link {
     color: whitesmoke;
 }
-a:hover {
-    color: whitesmoke;
-}
+/* a:hover {
+    color: black;
+} */
 a:visited {
     color: whitesmoke;
 }
