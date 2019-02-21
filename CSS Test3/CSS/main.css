@@ -1,5 +1,29 @@
 @charset "utf-8";
 
-html{
-    background-image: "../img/fish.jpg";
+html {
+    background-image: url("../img/fish.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+a:link {
+    color: whitesmoke;
+}
+a:hover {
+    color: whitesmoke;
+}
+a:visited {
+    color: whitesmoke;
+}
+div#p-1 > p {
+    padding: 20px;
+    border: 2px solid gray;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    color: gray;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.12);
 }
